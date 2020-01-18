@@ -1,6 +1,6 @@
 Name:           perl-Crypt-OpenSSL-Bignum
 Version:        0.04
-Release:        16.1%{?dist}
+Release:        18%{?dist}
 Summary:        Perl interface to OpenSSL for Bignum
 License:        GPL+ or Artistic 
 Group:          Development/Libraries
@@ -46,6 +46,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.04-18
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.04-17
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.04-16.1
 - Rebuild for perl 5.16
 
